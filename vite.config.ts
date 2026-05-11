@@ -24,8 +24,8 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  resolve: {""
-    alias: {
+  resolve: {
+    alias : {
       // Alias @ to the src directory"
       '@': path.resolve(__dirname, './src'),
     },
